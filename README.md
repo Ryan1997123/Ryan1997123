@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Ryan!
 - 👀 I’m interested in data analysis with programs like Python, C++, and MySQL!
-- 📚 I’m currently learning more about JavaScript and React
+- 📚 I’m currently learning more about R 
 - 💞️ I’m looking to collaborate on open source projects!
 - 📫 How to reach me: my email is rmonaghan4@fordham.edu. Please feel free to contact me!
 
