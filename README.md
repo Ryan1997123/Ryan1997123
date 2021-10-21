@@ -1,6 +1,6 @@
 - 👋 Hi, I’m <b>Ryan</b>!
 - 👀 I’m interested in data analysis with programs like Python, C++, and SQL!
-- 📚 I’m currently learning more about R, and I am a mentor for [HackerRam](https://hackeram.wixsite.com/live); Fordham University's first ever Hackathon! 
+- 📚 I’m currently learning more about Web Design & Development, and I was a mentor for [HackerRam](https://hackeram.wixsite.com/live); Fordham University's first ever Hackathon! 
 - 💞️ I’m looking to collaborate on open source projects!
 - 📫 How to reach me: my email is rmonaghan4@fordham.edu. Please feel free to contact me!
 
