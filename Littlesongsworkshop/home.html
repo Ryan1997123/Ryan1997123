@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Store</title>
+    <style>
+/* CSS styles for the online store */
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    padding: 0px 20px; /* Add left and right padding of 20 pixels */
+    margin: 0px 20px;
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Additional styles */
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; /* Add this property to include padding in the element's total width */
+}
+
+.content h1 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-top: 20px;
+}
+
+.content button {
+    margin-top: 20px;
+    background-color: #C134F6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 20px;
+    max-width: 100%;
+    padding-left: 400px; /* Add padding-left to move the images to the right side */
+}
+
+.images-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    padding-left: 90px;
+    padding-left: 10px;
+}
+
+.images img {
+    width: auto;
+    height: 355px;
+    margin-left: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Adjustments for first section */
+#products .content {
+    padding-bottom: 30px; /* Add padding-bottom to create space for images */
+}
+
+#products .content > * {
+    position: relative;
+    z-index: 1;
+}
+
+#products .product {
+    flex-basis: 33.33%; /* Make each product take up one-third of the available space */
+    padding: 10px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        flex: 100%;
+    }
+
+    .images {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .images-row {
+        justify-content: center;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="images/Primary Logo 1.png" alt="Logo"></a>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="products">
+        <div class="container">
+            <div class="content">
+                <h1>Little Song's Workshop</h1>
+                <p>Welcome to the official website for Little Song's Workshop!</p>
+                <a href="products.html"><button>Start Shopping</button></a>
+            </div>
+            <div class="images">
+                <div class="images-row">
+                    <img src="images/bluebear.png" alt="Image 1">
+                    <img src="images/jimin.png" alt="Image 2">
+                    <img src="images/graduation.png" alt="Image 3">
+                </div>
+                <div class="images-row">
+                    <img src="images/Little-Songs-s-Workshop-littlesongsworkshop-Instagram.png" alt="Image 4">
+                    <img src="images/Little-Songs-s-Workshop-littlesongsworkshop-Instagram245.png" alt="Image 5">
+                    <img src="images/Image1.png" alt="Image 6">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
